@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comic Pag3</title>
+
+    <style type="text/css">
+        button {
+            transition-duration: 0.4s;
+            position: relative;
+            float: left;
+            left: 80%;
+        }
+
+        button:hover {
+        background-color: #4CAF50; /* Green */
+        color: white;
+        }
+
+        button {padding: 32px 16px;}
+        button {border-radius: 8px;}
+
+
+    </style>
+
+</head>
+<body>
+    
+    <a href="pag 2.html">
+        <button>Anterior</button>
+    </a>
+    <a href="pag 4.html">
+        <button>Siguiente</button>
+    </a>
+
+    <svg width="1000" height="1000">
+
+        <!--torzo-->
+        <rect x="215" y="75" width="300" height="500" 
+        style="fill:rgb(92, 162, 254);stroke:rgb(100, 104, 156);stroke-width:3;fill-opacity:0.1;stroke-opacity:0.9" />
+        <ellipse cx="435" cy="170" rx="60" ry="60" stroke="#fff2a8" stroke-width="5" fill="gray" />
+
+        <!--brazos-->
+        <polyline points=" 185 100, 100 580" fill="none" stroke="black" stroke-width="3" />
+        <polyline points=" 540 100, 650 580" fill="none" stroke="black" stroke-width="3" />
+
+        <!--corazón-->
+        <circle cx="415" cy="155" r="20"  stroke-width="3" fill="red" />
+        <circle cx="450" cy="155" r="20"  stroke-width="3" fill="red" />
+        <polygon points="395,160 432,200 470,160" style="fill:red;stroke-width:1" />
+
+
+    </svg>
+
+</body>
+</html>

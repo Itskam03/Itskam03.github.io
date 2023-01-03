@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comic Pag2</title>
+
+    <style type="text/css">
+        button {
+            transition-duration: 0.4s;
+            position: relative;
+            float: left;
+            left: 80%;
+        }
+
+        button:hover {
+        background-color: #4CAF50; /* Green */
+        color: white;
+        }
+
+        button {padding: 32px 16px;}
+        button {border-radius: 8px;}
+
+
+    </style>
+
+</head>
+<body>
+    
+    <a href="pag 1.html">
+        <button>Anterior</button>
+    </a>
+    <a href="pag 3.html">
+        <button>Siguiente</button>
+    </a>
+
+    <svg width="1000" height="1000">
+
+        <!--fondo-->
+        <polyline points=" 50 420, 670 420, 320 420" fill="none" stroke="black" />
+        <polyline points="670 420, 670 180" fill="none" stroke="black" />
+        <rect width="200" height="100" x= 240 y="230" style="fill:rgb(255, 254, 210);stroke:purple;stroke-width:1" />
+        
+    <!--niño-->
+        <!--cabeza y torzo-->
+        <circle cx="650" cy="310" r="20" stroke="black" stroke-width="2" fill="#fad1a5" />
+        <rect x="636" y="340" width="30" height="70" 
+        style="fill:rgb(92, 162, 254);stroke:rgb(100, 104, 156);stroke-width:3;fill-opacity:0.1;stroke-opacity:0.9" />
+
+        <!--brazo-->
+        <polyline points="650 350, 630 410" fill="none" stroke="black" stroke-width="2" />
+
+        <!--piernas-->
+        <polyline points="646 415, 580 415" fill="none" stroke="black" stroke-width="2" />
+
+    <!--robot-->
+        <!--cabeza y torzo-->
+        <rect width="65" height="49" x="100" y="185" style="fill: #e6e6e6; stroke: #6a789c; stroke-width: 2" />
+        <rect width="65" height="79" x="100" y="250" style="fill: #e6e6e6; stroke: #6a789c; stroke-width: 2" />
+
+        <!--piernas-->   
+        <polygon points="119 335, 145 335, 171 410, 142 410" style="fill: #bcd2e253; stroke: #6a789c; stroke-width: 2" />
+        <polygon points="119 333, 145 333, 121 410, 92 410" style="fill: #bcd2e253; stroke: #6a789c; stroke-width: 2" />
+
+        <!--brazo/s--> 
+        <polygon points="118 260, 140 260, 140 288, 118 310" style="fill: #bcd2e253; stroke: #6a789c; stroke-width: 2" />
+        <polygon points="142 288, 120 310, 180 310, 180 288 " style="fill: #bcd2e253; stroke: #6a789c; stroke-width: 2" />
+
+        <!--otros-->
+        <ellipse cx="195" cy="280" rx="15" ry="15" stroke="#fff2a8" stroke-width="5" fill="gray" />
+        
+    </svg>
+
+
+</body>
+</html>
